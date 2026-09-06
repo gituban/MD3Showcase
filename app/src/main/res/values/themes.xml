@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ═══════════════════════════════════════════════════════════════════════
+         BASE APP THEME — Material 3 DayNight
+    ════════════════════════════════════════════════════════════════════════ -->
+    <style name="Theme.MD3Showcase" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary -->
+        <item name="colorPrimary">@color/md_theme_primary</item>
+        <item name="colorOnPrimary">@color/md_theme_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/md_theme_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_onPrimaryContainer</item>
+        <!-- Secondary -->
+        <item name="colorSecondary">@color/md_theme_secondary</item>
+        <item name="colorOnSecondary">@color/md_theme_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/md_theme_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/md_theme_onSecondaryContainer</item>
+        <!-- Tertiary -->
+        <item name="colorTertiary">@color/md_theme_tertiary</item>
+        <item name="colorOnTertiary">@color/md_theme_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/md_theme_tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/md_theme_onTertiaryContainer</item>
+        <!-- Error -->
+        <item name="colorError">@color/md_theme_error</item>
+        <item name="colorOnError">@color/md_theme_onError</item>
+        <!-- Surface -->
+        <item name="colorSurface">@color/md_theme_surface</item>
+        <item name="colorOnSurface">@color/md_theme_onSurface</item>
+        <item name="colorSurfaceVariant">@color/md_theme_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/md_theme_onSurfaceVariant</item>
+        <!-- Outline -->
+        <item name="colorOutline">@color/md_theme_outline</item>
+        <!-- System bars -->
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">?attr/colorSurface</item>
+        <item name="android:navigationBarColor">?attr/colorSurface</item>
+        <!-- M3 Motion tokens -->
+        <item name="motionDurationShort1">100</item>
+        <item name="motionDurationShort2">200</item>
+        <item name="motionDurationMedium1">250</item>
+        <item name="motionDurationMedium2">300</item>
+        <item name="motionDurationLong1">450</item>
+        <item name="motionDurationLong2">600</item>
+    </style>
+
+    <!-- ═══════════════════════════════════════════════════════════════════════
+         FULLSCREEN DIALOG
+    ════════════════════════════════════════════════════════════════════════ -->
+    <style name="Theme.MD3Showcase.FullScreenDialog" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowBackground">?attr/colorSurface</item>
+    </style>
+
+    <!-- ═══════════════════════════════════════════════════════════════════════
+         TEXT APPEARANCES
+    ════════════════════════════════════════════════════════════════════════ -->
+    <style name="TextAppearance.MD3Showcase.HeadlineLarge" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:shadowColor">#80000000</item>
+        <item name="android:shadowRadius">4</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">2</item>
+    </style>
+
+    <!-- ═══════════════════════════════════════════════════════════════════════
+         BOTTOM SHEET — 28dp rounded top corners
+    ════════════════════════════════════════════════════════════════════════ -->
+    <style name="Theme.MD3Showcase.BottomSheet" parent="Theme.Material3.DayNight.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/Widget.MD3Showcase.BottomSheet</item>
+    </style>
+
+    <style name="Widget.MD3Showcase.BottomSheet" parent="Widget.Material3.BottomSheet">
+        <item name="shapeAppearanceOverlay">@style/ShapeAppearance.MD3Showcase.BottomSheet</item>
+    </style>
+
+    <style name="ShapeAppearance.MD3Showcase.BottomSheet" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">28dp</item>
+        <item name="cornerSizeTopRight">28dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
+
+    <!-- ═══════════════════════════════════════════════════════════════════════
+         CATALOG WIDGET STYLES
+         Reusable section/sub-header styles used throughout main.xml
+    ════════════════════════════════════════════════════════════════════════ -->
+    <style name="Widget.MD3Showcase" parent="" />
+    <!--
+        Section Header — primary-colored title that separates major sections.
+
+        XML:
+        <TextView
+            style="@style/Widget.MD3Showcase.SectionHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Section Name" />
+    -->
+    <style name="Widget.MD3Showcase.SectionHeader">
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textAppearance">?attr/textAppearanceTitleMedium</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
+
+    <!--
+        Sub-header — smaller label inside a section.
+
+        XML:
+        <TextView
+            style="@style/Widget.MD3Showcase.SubHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sub-section" />
+    -->
+    <style name="Widget.MD3Showcase.SubHeader">
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">4dp</item>
+        <item name="android:textAppearance">?attr/textAppearanceLabelLarge</item>
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+    </style>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Range slider default values -->
+    <array name="range_slider_values">
+        <item>20</item>
+        <item>75</item>
+    </array>
+
+    <!-- Dimens -->
+    <dimen name="card_corner_radius">16dp</dimen>
+    <dimen name="bottom_sheet_corner_radius">28dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="content_padding">16dp</dimen>
+    <dimen name="section_spacing">24dp</dimen>
+</resources>

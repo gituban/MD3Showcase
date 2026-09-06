@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home"
+            android:checked="true" />
+
+        <item
+            android:id="@+id/nav_buttons"
+            android:icon="@drawable/ic_touch_app"
+            android:title="Buttons &amp; Actions" />
+
+        <item
+            android:id="@+id/nav_inputs"
+            android:icon="@drawable/ic_edit"
+            android:title="Inputs &amp; Pickers" />
+
+        <item
+            android:id="@+id/nav_carousel"
+            android:icon="@drawable/ic_view_carousel"
+            android:title="Carousel &amp; Stacked Cards" />
+
+        <item
+            android:id="@+id/nav_advanced"
+            android:icon="@drawable/ic_animation"
+            android:title="Advanced Animations" />
+    </group>
+
+    <group>
+        <item
+            android:id="@+id/nav_divider"
+            android:title=""
+            android:checkable="false" />
+    </group>
+
+    <group android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/nav_theme"
+            android:icon="@drawable/ic_palette"
+            android:title="Toggle Theme" />
+
+        <item
+            android:id="@+id/nav_dynamic_color"
+            android:icon="@drawable/ic_color_lens"
+            android:title="Dynamic Color Info" />
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Settings" />
+    </group>
+</menu>

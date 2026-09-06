@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MD3 Component Catalog</string>
+
+    <string-array name="dropdown_categories">
+        <item>Design Systems</item>
+        <item>Android Development</item>
+        <item>Material Design 3</item>
+        <item>Motion &amp; Animation</item>
+        <item>Typography</item>
+        <item>Color Theory</item>
+    </string-array>
+
+    <string-array name="carousel_titles">
+        <item>Design System</item>
+        <item>Typography</item>
+        <item>Color Schemes</item>
+        <item>Motion</item>
+        <item>Components</item>
+        <item>Adaptive UI</item>
+    </string-array>
+
+    <string-array name="stacked_card_titles">
+        <item>Material Baseline</item>
+        <item>Dynamic Color</item>
+        <item>Expressive Type</item>
+        <item>Motion System</item>
+        <item>Shape System</item>
+    </string-array>
+
+    <string-array name="stacked_card_subtitles">
+        <item>Foundation of MD3 design</item>
+        <item>Personalized theming</item>
+        <item>Readable &amp; expressive</item>
+        <item>Purposeful transitions</item>
+        <item>Consistent corners</item>
+    </string-array>
+</resources>

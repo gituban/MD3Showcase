@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_home"      android:icon="@drawable/ic_home"       android:title="Home" android:checked="true"/>
+        <item android:id="@+id/nav_buttons"   android:icon="@drawable/ic_touch_app"  android:title="Buttons" />
+        <item android:id="@+id/nav_cards"     android:icon="@drawable/ic_outline_card" android:title="Cards" />
+        <item android:id="@+id/nav_inputs"    android:icon="@drawable/ic_edit"       android:title="Text Fields" />
+        <item android:id="@+id/nav_chips"     android:icon="@drawable/ic_check"      android:title="Chips" />
+        <item android:id="@+id/nav_carousel_m3" android:icon="@drawable/ic_view_carousel" android:title="Carousel" />
+        <item android:id="@+id/nav_nav_drawer" android:icon="@drawable/ic_menu"      android:title="Nav Drawer" />
+    </group>
+</menu>
